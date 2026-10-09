@@ -28,5 +28,10 @@ Solução desenvolvida para modelar o fluxo de revisão de roteiros de campanhas
 * Dart SDK `^3.0.0` (ou Flutter SDK instalado).
 
 ### Instalação de Dependências
-```bash
+
 dart pub get
+
+## 🤖 Declaração sobre Uso de IA
+
+* **Desenvolvido integralmente por IA:** A conceção e implementação completa da suíte de testes unitários em `test/domain/script_test.dart` (incluindo a simulação temporal com `FixedClock`, os cenários de fronteira no último instante do dia e no início do dia seguinte em São Paulo, e os testes de transição de estados).
+* **Desenvolvido / Revisto manualmente:** Modelação das entidades de domínio (`Script`, `ScriptVersion`, `ChangeRequest`), regras de validação de prazos em `TimezoneUtils`, estruturação das pastas em Clean Architecture e configuração do ambiente Dart/pubspec.
